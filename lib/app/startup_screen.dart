@@ -136,7 +136,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 1),
                         child: Image.asset(
-                          'assets/images/eleodes_launcher.png',
+                          'assets/images/app_icon.png',
                           width: 36,
                           height: 40,
                           fit: BoxFit.contain,
