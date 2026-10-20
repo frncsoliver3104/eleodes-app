@@ -1,0 +1,38 @@
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "awg-iot-system",
+          "configurations": {
+            "android": "1:971924610923:android:72537ae0c42ddaa30ef62e",
+            "ios": "1:971924610923:ios:09402fde83befa380ef62e"
+          }
+        }
+      },
+      "android": {
+        "default": {
+          "projectId": "awg-iot-system",
+          "appId": "1:971924610923:android:72537ae0c42ddaa30ef62e",
+          "fileOutput": "android/app/google-services.json"
+        }
+      }
+    }
+  },
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "awg-pairing",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "test",
+        "scripts",
+        "*.log"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "971924610923",
+    "firebase_url": "https://awg-iot-system-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "awg-iot-system",
+    "storage_bucket": "awg-iot-system.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971924610923:android:72537ae0c42ddaa30ef62e",
+        "android_client_info": {
+          "package_name": "com.example.my_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDITKeS9Y1c6SxekzAezAiNwbdeTBiS3OM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+name: ELEODES
+description: "Every drop matters"
+publish_to: 'none'
+
+version: 1.0.1+2
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared_preferences: ^2.5.3
+  package_info_plus: ^10.2.1
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^4.7.0
+  firebase_database: ^12.3.0
+  firebase_auth: ^6.7.0
+  # Charts
+  fl_chart: ^1.2.0
+
+  # Notifications
+  flutter_local_notifications: ^17.0.0
+
+  # Bluetooth Low Energy
+  flutter_blue_plus: ^2.3.12
+
+  # Bluetooth / Location permissions
+  permission_handler: ^12.0.1
+  geolocator: ^14.0.0
+  http: ^1.2.0
+  mobile_scanner: ^7.4.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  flutter_launcher_icons: ^0.14.4
+
+
+# ==========================
+# APP ICON CONFIGURATION
+# ==========================
+flutter_launcher_icons:
+  android: true
+  ios: true
+
+  image_path: "assets/images/eleodes_launcher.png"
+  adaptive_icon_background: "#101E1A"
+  adaptive_icon_foreground: "assets/images/eleodes_launcher_foreground.png"
+  adaptive_icon_foreground_inset: 16
+  adaptive_icon_monochrome: "assets/images/eleodes_launcher_foreground.png"
+  remove_alpha_ios: true
+  background_color_ios: "#101E1A"
+
+
+# ==========================
+# FLUTTER CONFIGURATION
+# ==========================
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/app_icon.png
+    - assets/images/eleodes_launcher.png
+    - assets/images/Notification.png
+    - assets/images/Water.png
+    - assets/images/Settings.png
+    - assets/images/devices.png
+    - assets/images/device_notfound.png
